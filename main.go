@@ -50,7 +50,7 @@ func execInput(input string) error {
 	fmt.Println("Args:", args)
 
 	switch args[0] {
-	case ("exit" || "quit"):
+	case "exit":
 		goodbyeMessage()
 		os.Exit(0)
 	}
